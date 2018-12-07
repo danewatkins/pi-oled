@@ -1,11 +1,13 @@
 #!/usr/bin/env python
-import time
 
+# this script will find all the iages in a folder called 'images' 
+# and play them on an OLED
+
+import time
 import Adafruit_GPIO.SPI as SPI
 import Adafruit_SSD1306
 from os import walk
 from PIL import Image
-
 
 # Raspberry Pi pin configuration:
 RST = 24

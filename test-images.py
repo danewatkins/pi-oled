@@ -3,6 +3,9 @@
 # this script will find all the iages in a folder called 'images' 
 # and play them on an OLED
 
+# place this file and the folder on the desktop
+# 
+
 import time
 import Adafruit_GPIO.SPI as SPI
 import Adafruit_SSD1306
